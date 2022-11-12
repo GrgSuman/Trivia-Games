@@ -1,0 +1,26 @@
+/* BASE CSS */
+*{
+  margin: 0;padding: 0;box-sizing: border-box;font-family: 'Rubik', sans-serif;
+}
+
+/* $primary-blue: #0080FF;
+$light-grey:#F3F6F9;
+$dark-grey:#303336;
+$red:#FF3149;
+$green:#00D074;
+$orange:#FFB000;
+$fatty:'Chewy';
+$fancy:'Fredoka One';
+$modern:'Rubik'; */
+
+a{
+  text-decoration: none;
+}
+
+.main_container{
+  padding:2.5rem 10%;
+}
+
+h1,h2,h3,h4{
+  font-weight: 500;
+}

@@ -1,0 +1,21 @@
+.error_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.error_page img{
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+    margin: 2rem 0;
+}
+.error_page a{
+    background-color: #303336;
+    color: white;
+    padding:1rem 0;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+}

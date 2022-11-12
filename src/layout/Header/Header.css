@@ -1,0 +1,76 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 10%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.08);
+}
+
+.h_left{
+    width: fit-content;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.logo p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.logo img{
+    height: 35px;
+    width: 35px;
+}
+
+.user_section{
+    display: flex;
+}
+
+.user_section p{
+    padding: 5px 25px;
+    background: #8E2DE2;;
+    font-weight: 500;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.my_res{
+    background: #f1f7ff!important;
+    margin-right: 1rem;
+    color: #303336!important;
+}
+.my_res2{
+    display: flex;
+    align-items: center;
+}
+
+.user_section p:hover{
+    transform: scale(1.05);
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .1), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.my_res:active{
+    color: black!important;
+    background:  #0073e6;
+    transform: scale(0.98)!important;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.my_res2:hover{
+    background: #148aff;
+}
+
+.my_res2:active{
+    background:  #0073e6;
+    transform: scale(0.98)!important;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, .3);
+}
+
